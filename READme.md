@@ -2,16 +2,20 @@
 
 ## Visão geral
 
-Este é um exemplo de implementação do PassportJS, uma biblioteca de autenticação para N>
+ Este é um exemplo de implementação do PassportJS,
+ uma biblioteca de autenticação para Node.js,
+ sem a necessidade de um banco de dados.
+ Ele demonstra como você pode autenticar usuários usando
+ estratégias de autenticação local.
 
 ## Pré-requisitos
 
-Antes de começar, verifique se você possui os seguintes requisitos instalados em sua má>
+Antes de começar, verifique se você possui os seguintes requisitos instalados
+ em sua máquina de desenvolvimento:
 
 • Node.js
 
 • npm (gerenciador de pacotes do Node.js)
-
 
 
 ```bash
@@ -43,7 +47,8 @@ $ npm install
 
 ## Configuração
 
-Antes de executar o projeto, você precisa configurar algumas informações. Siga as etapa>
+Antes de executar o projeto, você precisa configurar algumas informações.
+ Siga as etapas abaixo:
 
 1- Crie um arquivo .env na raiz do projeto e defina a seguinte variável de ambiente:
 
@@ -59,4 +64,5 @@ SECRET = "your secret"
 $ node server.js
 ```
 
-2- Abra um navegador da web e acesse [http://localhost:3000/login](http://localhost:300>
+2- Abra um navegador da web e acesse
+[http://localhost:3000/login](http://localhost:3000/login) para ver a página de login.
