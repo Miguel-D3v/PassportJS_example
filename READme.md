@@ -1,4 +1,4 @@
-## Exemplo de PassportJS sem banco de dados
+# Exemplo de PassportJS sem banco de dados
 
 ## Visão geral
 
